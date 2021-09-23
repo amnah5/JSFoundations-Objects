@@ -1,5 +1,5 @@
 const channels = require("./channels.json");
-
+console.log(channels[0]);
 /**************************************************************
  * totalVideosDuration(channel):
  * - receives a channel object
@@ -9,8 +9,9 @@ const channels = require("./channels.json");
  ****************************************************************/
 function totalVideosDuration(channel) {
   // Your code here
+  return channel.name;
 }
-
+console.log(getchaneelname(channel[0]));
 /**************************************************************
  * channelWithMostContent(channels):
  * - receives an array of channel objects
