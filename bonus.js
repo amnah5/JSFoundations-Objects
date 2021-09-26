@@ -1,5 +1,8 @@
 const channels = require("./channels.json");
 console.log(channels[0]);
+return channel.name;
+
+
 /**************************************************************
  * totalVideosDuration(channel):
  * - receives a channel object
@@ -7,10 +10,22 @@ console.log(channels[0]);
  *
  * BONUS: use iteration method `.reduce()`
  ****************************************************************/
+ 
 function totalVideosDuration(channel) {
   // Your code here
-  return channel.name;
-}
+ // return channel.name;
+
+/*let totalVideosDuration = 0;
+for (let i = 0; i < duration.length; i++) {
+totalVideosDuration += duration[i] }
+return totalVideosDuration*/
+
+        //console.log(" total duration");
+        //totalVideosDuration.forEach(duration => {
+          //console.log(duration);
+          
+        };
+
 console.log(getchaneelname(channel[0]));
 /**************************************************************
  * channelWithMostContent(channels):
@@ -43,6 +58,7 @@ console.log(totalVideosDuration(channels[0]));
 // 636
 
 console.log(channelWithMostContent(channels));
+
 // Should log:
 
 // {
